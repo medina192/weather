@@ -4,7 +4,7 @@ import axios from 'axios';
 
 
 import SimpleWeatherCity from './SimpleWeatherCity';
-import CityData from '../services/CityData';
+//import { CityData } from '../services/CityData';
 
 const token = '5f62cfc9e248aea9613ec3bbb0076a86';
 
@@ -25,7 +25,7 @@ const MainPage = () => {
             })
             .then((resp) => {
                 console.log('resp',resp.data);
-                CityData.data = resp.data;
+                //CityData.data = resp.data;
                 setCityData( resp.data );
                 localStorage.setItem("cityWeather", JSON.stringify(resp.data));
             })
