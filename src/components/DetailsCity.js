@@ -1,8 +1,8 @@
 import React, {useRef} from 'react';
 import { useNavigate} from "react-router-dom";
-import CityData from '../services/CityData';
+//import CityData from '../services/CityData';
 import ContainerIconClimate from './ContainerIconClimate';
-import { BsPercent } from "react-icons/bs";
+//import { BsPercent } from "react-icons/bs";
 
 const DetailsCity = () => {
 
